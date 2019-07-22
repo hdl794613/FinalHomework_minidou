@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/ll_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/recycler_item_selector"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+     <com.example.cxdd.miniDou.widget.CircleImageView
+         android:id="@+id/pic_url"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:scaleType="fitXY"
+         android:adjustViewBounds="true"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="1.0"
+         app:layout_constraintStart_toStartOf="parent"
+         app:srcCompat="@color/colorBackground"
+         tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/zz_name_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@某人"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/zz_hashtag_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="#抖音，记录美好生活"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp" />
+        <ImageView
+            android:id="@+id/heart"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/heart_white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"
+            android:layout_marginBottom="20dp"/>
+
+</LinearLayout>
